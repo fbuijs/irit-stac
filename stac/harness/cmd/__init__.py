@@ -9,15 +9,18 @@ from . import (clean,
                count,
                evaluate,
                gather,
+               localModels,
                model,
                parse,
                preview,
                serve,
-               stop)
+               stop,
+               structuredLearning)
 
 SUBCOMMANDS =\
     [
         gather,
+        localModels,
         preview,
         evaluate,
         count,
@@ -26,4 +29,5 @@ SUBCOMMANDS =\
         parse,
         serve,
         stop,
+        structuredLearning
     ]
